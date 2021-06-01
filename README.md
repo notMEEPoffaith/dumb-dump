@@ -1,2 +1,2 @@
-# griefers-be-like
-adds in a unit that is basically 100% of griefers
+# dumb dump
+a dump where i dump my stupid ideas
