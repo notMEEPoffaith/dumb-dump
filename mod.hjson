@@ -1,7 +1,7 @@
-name: "griefers be like"
-displayName: "Griefers be like"
+name: "dumb dump"
+displayName: "Dumb Dump"
 author: "notMEEPoffaith"
-description: "First mod that has stuff. Unit is only accessable via a unit spawner mod or testers."
+description: "First mod that has stuff. satire."
 version: "1.0"
 minGameVersion: "126.2"
 dependencies: [ ]
