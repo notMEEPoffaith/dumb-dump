@@ -1,6 +1,7 @@
 name: "sex"
 health: 6900
 speed: 0.69
+armor: 69
 type: mech
 BaseUnit: GroundUnit
 weapons: [
