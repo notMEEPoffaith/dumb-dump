@@ -1,0 +1,24 @@
+name: "sex"
+health: 6900
+speed: 0.69
+type: mech
+BaseUnit: GroundUnit
+weapons: [
+ {
+  name:sexgun
+  reload: 12
+  shootsound: tshot
+  x:0
+  y:0
+  shots: 69
+  inaccuracy: 69
+  spacing: 1
+  bullet: {
+   type: NormalBulletType
+   damage: 69
+   speed: 1.69
+   width: 6.9
+   height: 16.9
+  }
+ }
+]
