@@ -1,0 +1,8 @@
+name: "griefers be like"
+displayName: "Griefers be like"
+author: "notMEEPoffaith"
+description: "First mod that has stuff. Unit is only accessable via a unit spawner mod or testers."
+version: "1.0"
+minGameVersion: "126.2"
+dependencies: [ ]
+hidden: false
