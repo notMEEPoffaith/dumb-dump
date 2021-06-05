@@ -1,0 +1,78 @@
+size: 2
+name: "Rain"
+health: 420
+type: itemTurret
+range: 400
+reloadTime: 6
+inaccuracy: 10
+shootSound: bigshot
+targetAir: false
+targetGround: true
+requirements: [
+copper/100
+metaglass/60
+graphite/50
+titanium/20
+]
+ammoTypes: {
+pyratite: {
+type: artilleryBulletType
+shootSound: bigshot
+speed: 4
+damage: 35
+splashDamage: 50
+splashDamageRadius: 30
+incendAmount: 1
+reloadTime: 60
+width: 3
+height: 4
+status: burning
+frontColor: fc890d
+backColor: fcc40d
+}
+blast-compound: {
+type: artilleryBulletType
+shootsound: bigshot
+speed: 3
+damage: 25
+splashDamage: 65
+splashDamageRadius: 70
+reloadTime: 65
+width: 4
+height: 5
+}
+surge-alloy: {
+type: artilleryBulletType 
+shootSound: bigshot 
+speed: 4
+damage: 25
+lightningColor: ffda24
+lightning: 5
+lightningDamage: 19
+lightningLength: 8
+lightningLengthRand: 10
+reloadTime: 60
+width: 5
+height: 6
+}
+bleponium: {
+type: artilleryBulletType
+shootSound: bigshot
+speed: 3
+damage: 17
+reloadTime: 50
+frontColor: 0894ff
+backColor: 085aff
+width: 6
+height: 7
+fragBullet: {
+lifetime: 10
+damage: 4
+frontColor: 0894ff
+backColor: 085aff
+}
+}
+}
+category: turret
+researched: hail
+research: ripple
