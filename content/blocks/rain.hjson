@@ -41,6 +41,17 @@ reloadTime: 65
 width: 4
 height: 5
 }
+graphite: {
+type: artilleryBulletType
+shootsound: bigshot
+speed: 3
+damage: 15
+splashDamage: 40
+splashDamageRadius: 35
+reloadTime: 60
+width: 4
+height: 5
+}
 surge-alloy: {
 type: artilleryBulletType 
 shootSound: bigshot 
@@ -54,6 +65,7 @@ lightningLengthRand: 10
 reloadTime: 60
 width: 5
 height: 6
+}
 }
 }
 category: turret
