@@ -66,7 +66,6 @@ reloadTime: 60
 width: 5
 height: 6
 }
-}
 category: turret
 researched: hail
 research: ripple
