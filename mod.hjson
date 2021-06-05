@@ -2,7 +2,7 @@ name: "dumb dump"
 displayName: "Dumb Dump"
 author: "notMEEPoffaith"
 description: "First mod that has stuff. satire."
-version: "1.0"
+version: "1.1"
 minGameVersion: "126.2"
 dependencies: [ ]
 hidden: false
