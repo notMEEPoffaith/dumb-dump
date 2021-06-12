@@ -19,6 +19,7 @@ weapons: [
    type: NormalBulletType
    damage: 41
    speed: 4.1
+   backColor: ff0000
    width: 4.1
    height: 4.1
   },
