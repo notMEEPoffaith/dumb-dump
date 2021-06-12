@@ -8,7 +8,7 @@ BaseUnit: GroundUnit
 weapons: [
  {
   name:invsible
-  reload: 0.41
+  reload: 0.25
   shootsound: tshot
   x:5
   y:0
