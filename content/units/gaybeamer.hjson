@@ -24,5 +24,23 @@ weapons: [
    width: 4.1
    height: 4.1
   },
+ {
+  name:invsible
+  reload: 0.41
+  shootsound: tshot
+  x:4
+  y:0
+  shots: 1
+  inaccuracy: 0
+  spacing: 1
+  bullet: {
+   type: NormalBulletType
+   damage: 41
+   speed: 4.1
+   backColor: ff6600
+   frontColor: ff6600
+   width: 4.1
+   height: 4.1
+  },
  }
 ]
