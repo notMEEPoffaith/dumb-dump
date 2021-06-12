@@ -1,0 +1,26 @@
+name: "Gaybeamer"
+description: "Shoots a beam of bullets thats a rainbow"
+health: 410000
+speed: 0.41
+armor: 41
+type: mech
+BaseUnit: GroundUnit
+weapons: [
+ {
+  name:invsible
+  reload: 0.41
+  shootsound: tshot
+  x:5
+  y:0
+  shots: 1
+  inaccuracy: 0
+  spacing: 1
+  bullet: {
+   type: NormalBulletType
+   damage: 41
+   speed: 4.1
+   width: 4.1
+   height: 4.1
+  },
+ }
+]
