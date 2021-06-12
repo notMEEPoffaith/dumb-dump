@@ -23,7 +23,8 @@ weapons: [
    frontColor: ff0000
    width: 4.1
    height: 4.1
-  },
+  }
+ }
  {
   name:invsible
   reload: 0.41
@@ -41,6 +42,6 @@ weapons: [
    frontColor: ff6600
    width: 4.1
    height: 4.1
-  },
+  } 
  }
 ]
