@@ -67,7 +67,7 @@ weapons: [
   name:invsible
   reload: 1.64
   shootsound: tshot
-  x:4
+  x:2
   y:0
   shots: 1
   inaccuracy: 0
