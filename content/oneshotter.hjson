@@ -1,0 +1,28 @@
+name: "Oneshotter"
+description: "Shoots a gigantic bullet of doom."
+health: 24000
+speed: 0.35
+armor: 14
+type: mech
+BaseUnit: GroundUnit
+weapons: [
+ {
+  name:oneshotgun
+  reload: 60
+  shootsound: bigshot
+  x:5
+  y:0
+  shots: 1
+  inaccuracy: 0
+  spacing: 1
+  bullet: {
+   type: BasicBulletType
+   damage: 164
+   speed: 2
+   backColor: ff0000
+   frontColor: ff0000
+   width: 32
+   height: 32
+  } 
+ }
+]
