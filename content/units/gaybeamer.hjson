@@ -45,7 +45,6 @@ weapons: [
   } 
  }
  {
- }
   name:invsible
   reload: 0.41
   shootsound: tshot
