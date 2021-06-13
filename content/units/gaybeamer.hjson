@@ -8,7 +8,7 @@ BaseUnit: GroundUnit
 weapons: [
  {
   name:invsible
-  reload: 0.41
+  reload: 0.82
   shootsound: tshot
   x:5
   y:0
@@ -17,17 +17,17 @@ weapons: [
   spacing: 1
   bullet: {
    type: BasicBulletType
-   damage: 41
+   damage: 82
    speed: 4.1
    backColor: ff0000
    frontColor: ff0000
    width: 4.1
-   height: 4.1
+   height: 8.2
   }
  }
  {
   name:invsible
-  reload: 0.41
+  reload: 0.82
   shootsound: tshot
   x:4
   y:0
@@ -36,17 +36,17 @@ weapons: [
   spacing: 1
   bullet: {
    type: BasicBulletType
-   damage: 41
+   damage: 82
    speed: 4.1
    backColor: ff6600
    frontColor: ff6600
    width: 4.1
-   height: 4.1
+   height: 8.2
   } 
  }
  {
   name:invsible
-  reload: 0.41
+  reload: 0.82
   shootsound: tshot
   x:4
   y:0
@@ -55,12 +55,12 @@ weapons: [
   spacing: 1
   bullet: {
    type: BasicBulletType
-   damage: 41
+   damage: 82
    speed: 4.1
    backColor: ffff00
    frontColor: ffff00
    width: 4.1
-   height: 4.1
+   height: 8.2
   }
  }
 ]
