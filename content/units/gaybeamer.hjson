@@ -22,7 +22,7 @@ weapons: [
    backColor: ff0000
    frontColor: ff0000
    width: 4.1
-   height: 32.8
+   height: 16.4
   }
  }
  {
@@ -41,7 +41,7 @@ weapons: [
    backColor: ff6600
    frontColor: ff6600
    width: 4.1
-   height: 32.8
+   height: 16.4
   } 
  }
  {
@@ -60,14 +60,14 @@ weapons: [
    backColor: ffff00
    frontColor: ffff00
    width: 4.1
-   height: 32.8
+   height: 16.4
   }
  }
  {
   name:invsible
   reload: 1.64
   shootsound: tshot
-  x:3
+  x:4
   y:0
   shots: 1
   inaccuracy: 0
@@ -79,7 +79,7 @@ weapons: [
    backColor: 00ff00
    frontColor: 00ff00
    width: 4.1
-   height: 32.8
+   height: 16.4
   } 
  }
 ]
