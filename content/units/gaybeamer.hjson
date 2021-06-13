@@ -16,7 +16,7 @@ weapons: [
   inaccuracy: 0
   spacing: 1
   bullet: {
-   type: NormalBulletType
+   type: BasicBulletType
    damage: 41
    speed: 4.1
    backColor: ff0000
@@ -35,7 +35,7 @@ weapons: [
   inaccuracy: 0
   spacing: 1
   bullet: {
-   type: NormalBulletType
+   type: BasicBulletType
    damage: 41
    speed: 4.1
    backColor: ff6600
