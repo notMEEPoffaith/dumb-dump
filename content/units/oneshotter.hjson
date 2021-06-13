@@ -8,7 +8,7 @@ BaseUnit: GroundUnit
 weapons: [
  {
   name:oneshotgun
-  reload: 600
+  reload: 3600
   shootsound: bigshot
   x:0
   y:0
@@ -19,6 +19,7 @@ weapons: [
    type: BasicBulletType
    damage: 99999999999999999
    speed: 1
+   lifetime: 36000
    backColor: ff0000
    frontColor: ff0000
    width: 64
