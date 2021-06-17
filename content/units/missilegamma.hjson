@@ -1,0 +1,15 @@
+name: "Missile Gamma"
+description: "Gamma but missile"
+flying: true
+mineSpeed: 8
+mineTier: 2
+buildSpeed: 1
+drag: 0.05
+speed: 3.55
+rotateSpeed: 19
+accel: 0.11
+itemCapacity: 70
+health: 220
+engineOffset: 6
+hitSize: 11
+commandLimit: 5
