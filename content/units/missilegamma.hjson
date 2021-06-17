@@ -1,6 +1,7 @@
 name: "Missile Gamma"
 description: "Gamma but missile"
 flying: true
+rotateShooting: false
 mineSpeed: 8
 mineTier: 2
 buildSpeed: 1
