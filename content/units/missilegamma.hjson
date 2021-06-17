@@ -42,6 +42,7 @@ weapons:[
                   "trailColor": d06b53,
                   "length": 8,
                   "width": 8,
-                  "buildingDamageMultiplier": 1.2,
-                  "damage": 60}
+                  "splashDamageRadius": 25,
+                  "splashDamage": 15,
+                  "damage": 14}
     }],
