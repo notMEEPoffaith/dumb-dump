@@ -14,5 +14,5 @@ engineOffset: 6
 hitSize: 11
 commandLimit: 5
 weapons:[{
-  zenith-weapon
+  zenith-missiles
 }]
