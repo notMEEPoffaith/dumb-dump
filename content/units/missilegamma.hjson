@@ -27,7 +27,7 @@ weapons:[
        "inaccuracy": 5
        "reload": 40,
        "bullet": {"type": "MissileBulletType",
-                  "homingPower": 1,
+                  "homingPower": 0.1,
                   "homingRange": 60,
                   "weaveMag": 1,
                   "weaveScale": 6,
