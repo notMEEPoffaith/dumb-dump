@@ -13,6 +13,6 @@ health: 220
 engineOffset: 6
 hitSize: 11
 commandLimit: 5
-weapons:{
+weapons:[{
   zenith-weapon
-}
+}]
