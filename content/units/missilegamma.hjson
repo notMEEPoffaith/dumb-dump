@@ -14,8 +14,8 @@ engineOffset: 6
 hitSize: 11
 commandLimit: 5
 weapons:[
- {"name": "zenith-missiles",
-       "x": 7,
+ {"name": "gamma-missiles",
+       "x": 0,
        "mirror": false,
        "ejectEffect": none,
        "rotate": true,
