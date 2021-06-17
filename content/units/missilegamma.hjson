@@ -16,6 +16,7 @@ commandLimit: 5
 weapons:[
  {"name": "gamma-missiles",
        "x": 0,
+       "y": -2,
        "mirror": false,
        "ejectEffect": none,
        "rotate": true,
@@ -26,7 +27,7 @@ weapons:[
        "inaccuracy": 5
        "reload": 40,
        "bullet": {"type": "MissileBulletType",
-                  "homingPower": 60,
+                  "homingPower": 1,
                   "homingRange": 60,
                   "weaveMag": 1,
                   "weaveScale": 6,
