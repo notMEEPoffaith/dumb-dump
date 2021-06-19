@@ -1,4 +1,6 @@
 name: "sex"
+description: haha 69 funni
+details: "The hex codes for the bullets are #420690 and #690420."
 health: 6900
 speed: 0.69
 armor: 69
@@ -22,6 +24,8 @@ weapons: [
    speed: 1.69
    width: 6.9
    height: 16.9
+   frontColor: 420690ff
+   backColor: 690420ff
   }
  }
 ]
