@@ -1,5 +1,5 @@
 size: 2
-name: "Rain"
+localizedName: "Rain"
 health: 420
 type: itemTurret
 range: 400
