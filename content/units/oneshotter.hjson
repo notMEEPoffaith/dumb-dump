@@ -3,27 +3,35 @@ description: "Shoots a gigantic bullet of doom."
 health: 24000
 speed: 0.35
 armor: 14
+hitSize: 28
 type: mech
 BaseUnit: GroundUnit
+rotateSpeed: 1
 weapons: [
  {
   name:oneshotgun
-  reload: 3600
+  mirror: false
+  reload: 300
   shootsound: bigshot
+  rotate: true
   x:0
   y:0
   shots: 1
   inaccuracy: 0
   spacing: 1
+  recoil: 10
+  shake: 10
+  rotateSpeed: 2.5
   bullet: {
    type: BasicBulletType
    damage: 99999999999999999
    speed: 1
-   lifetime: 36000
-   backColor: ff0000
-   frontColor: ff0000
+   lifetime: 300
+   backColor: c85c51ff
+   frontColor: ff795eff
    width: 64
    height: 64
+   recoil: 8
   } 
  }
 ]

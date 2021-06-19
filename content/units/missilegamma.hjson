@@ -17,7 +17,7 @@ commandLimit: 5
 weapons:[
  {"name": "gamma-missiles",
        "x": 0,
-       "y": -2,
+       "y": 0,
        "mirror": false,
        "ejectEffect": none,
        "rotate": true,
