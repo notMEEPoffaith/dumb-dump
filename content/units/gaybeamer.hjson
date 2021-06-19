@@ -1,4 +1,4 @@
-name: "Gaybeamer"
+localizedName: "Gaybeamer"
 description: "Shoots a beam of bullets thats a rainbow"
 health: 410000
 speed: 0.41
