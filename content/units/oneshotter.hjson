@@ -1,4 +1,4 @@
-name: "Oneshotter"
+localizedName: "Oneshotter"
 description: "Shoots a gigantic bullet of doom."
 health: 24000
 speed: 0.35
