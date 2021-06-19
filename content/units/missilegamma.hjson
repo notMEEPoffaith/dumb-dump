@@ -1,4 +1,4 @@
-name: "Missile Gamma"
+localizedName: "Missile Gamma"
 description: "Gamma but missile"
 flying: true
 rotateShooting: false
