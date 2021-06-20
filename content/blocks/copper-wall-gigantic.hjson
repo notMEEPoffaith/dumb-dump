@@ -4,6 +4,8 @@ description: Protects structures from enemy projectiles.
 
 size: 4
 health: 5120
+
+category: defense
 requirements: [
 	copper/96
 ]
