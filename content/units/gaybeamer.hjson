@@ -110,12 +110,12 @@ weapons: [
   recoil: 0
   x: 0
   y: 0
-  shots: 16
+  shots: 1
   inaccuracy: 0
   spacing: 1
   bullet: {
    type: BasicBulletType
-   damage: 1
+   damage: 16
    speed: 4.1
    backColor: bf92f9ff
    frontColor: bf92f9ff
