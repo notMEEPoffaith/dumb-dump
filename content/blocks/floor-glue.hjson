@@ -10,7 +10,6 @@ status: {
 	name: glued
 	localizedName: Glued
 	speedMultiplier: 0.1
-	dragMultiplier: 2
 }
 
 breakable: true
