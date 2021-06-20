@@ -21,7 +21,7 @@ shootType: {
 	despawnEffect: none
 	knockback: 0
 	color: ffa665ff
-	status: null
+	status: none
 }
 
 health: 780
