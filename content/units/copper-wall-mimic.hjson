@@ -2,8 +2,36 @@ localizedName: "Copper Wall Mimic"
 description: "A unit that mimics a copper wall."
 health: 320
 speed: 0.1
-armor: 5
+armor: 0
 hitSize: 1
 type: mech
 BaseUnit: GroundUnit
 rotateSpeed: 1
+weapons: [
+ {
+  name: invisible
+  mirror: false
+  reload: 60
+  shootsound: pew
+  rotate: false
+  x:0
+  y:0
+  shots: 1
+  inaccuracy: 0
+  spacing: 1
+  recoil: 10
+  shake: 10
+  rotateSpeed: 2.5
+  bullet: {
+   type: BasicBulletType
+   damage: 5
+   speed: 1
+   lifetime: 5
+   backColor: c88c62
+   frontColor: d99d73
+   width: 0
+   height: 0
+   recoil: 8
+  } 
+ }
+]
