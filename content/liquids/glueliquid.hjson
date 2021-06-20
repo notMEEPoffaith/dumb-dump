@@ -1,0 +1,6 @@
+localizedName: Glue
+description: Glue that has not yet been put into a canister. Does not apply status effect due to budget cuts.
+
+color: ebeef5ff
+heatCapacity: 0
+viscosity: 1

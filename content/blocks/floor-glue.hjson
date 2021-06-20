@@ -1,0 +1,22 @@
+type: Floor
+localizedName: Floor Glue
+description: Slows enemies down by an extreme amount.
+
+requirements: [
+	glue/1
+]
+
+status: {
+	name: glued
+	localizedName: Glued
+	speedMultiplier: 0.1
+	dragMultiplier: 2
+}
+
+breakable: true
+destructible: true
+
+health: 80
+size: 1
+
+category: effect
