@@ -3,6 +3,7 @@ description: "A unit that mimics a copper wall."
 health: 320,
 speed: 0.1,
 armor: 0,
+mechLegColor: b28768,
 mechSideSway: 0,
 mechFrontSway: 0,
 hitSize: 8,
