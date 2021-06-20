@@ -1,3 +1,5 @@
+const minerMine = Vars.content.getByName(ContentType.block, "dumb-dump-miner-mine")
+
 const miner = extend(ItemTurret, "miner", {
 	size: 2,
 	range: 320,
@@ -16,6 +18,7 @@ const miner = extend(ItemTurret, "miner", {
 	ammoUseEffect: Fx.none,
 	reloadTime: 20,
 	shots: 1
+	description: "WARNING! What you've just uncovered is broken and may potentially crash your game."
 });
 
 //I probably left too many comments for such simple code, but whatever
@@ -26,6 +29,12 @@ const mine = extend(ArtilleryBulletType, {
 	height: 15,
 	lifetime: 90,
 	
+	//visual stuff so it looks like a mine
+	sprite: "miner-mine",
+	frontColor: Color.valueOf("ffffffff"),
+	backColor: Color.valueOf("ffffffff"),
+	shrinkY: 0.5,
+	
 	//given the way artillery bullets work, it is unnecessary to put this code under both despawned() and hit()
 	despawned(b){
 		//the entity coordinates are 8x greater than the Vars.world.tile coordinates so we need to divide by 8 to compensate
@@ -33,7 +42,7 @@ const mine = extend(ArtilleryBulletType, {
 		
 		//I'm not entirely sure how, but for some reason this null check is mandatory for preventing the bullet from crashing instantly
 		if(targetTile != null) {
-			targetTile.setBlock(Blocks.shockMine, b.team);
+			targetTile.setBlock(minerMine, b.team);
 		}
 
 		this.super$despawned(b);
@@ -44,7 +53,7 @@ miner.ammo(
 	Items.silicon, mine
 );
 
-miner.setupRequirements(Category.turret, ItemStack.with(
+miner.setupRequirements(Category.turret, BuildVisibility.hidden ItemStack.with(
 	Items.copper, 200,
 	Items.graphite, 300,
 	Items.titanium, 100,

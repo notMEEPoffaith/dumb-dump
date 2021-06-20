@@ -1,0 +1,9 @@
+type: Wall
+localizedName: Gigantic Copper Wall
+description: Protects structures from enemy projectiles.
+
+size: 4
+health: 5120
+requirements: [
+	copper/96
+]

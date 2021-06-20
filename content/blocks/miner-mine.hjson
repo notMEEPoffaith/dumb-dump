@@ -1,0 +1,11 @@
+type: ShockMine
+localizedName: Miner Mine
+description: WARNING! What you've just uncovered is broken and may potentially crash your game.
+health: 80
+size: 1
+hasShadow: false
+damage: 30
+tileDamage: 8
+length: 10
+tendrils: 6
+buildVisility: hidden

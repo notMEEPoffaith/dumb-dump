@@ -1,13 +1,14 @@
 localizedName: "Gaybeamer"
-description: "Shoots a beam of bullets thats a rainbow"
+description: Shoots a beam of bullets that looks like a rainbow.
 health: 410000
 speed: 0.41
 armor: 41
+hitSize: 9
 type: mech
 BaseUnit: GroundUnit
 weapons: [
  {
-  name:invsible
+  name:invisible
   reload: 1.64
   shootsound: tshot
   x:5
@@ -17,10 +18,10 @@ weapons: [
   spacing: 1
   bullet: {
    type: BasicBulletType
-   damage: 164
+   damage: 1
    speed: 4.1
-   backColor: ff0000
-   frontColor: ff0000
+   backColor: ff795eff
+   frontColor: ff795eff
    width: 4.1
    height: 16.4
   }
@@ -36,10 +37,10 @@ weapons: [
   spacing: 1
   bullet: {
    type: BasicBulletType
-   damage: 164
+   damage: 1
    speed: 4.1
-   backColor: ff6600
-   frontColor: ff6600
+   backColor: ffa665ff
+   frontColor: ffa665ff
    width: 4.1
    height: 16.4
   } 
@@ -55,10 +56,10 @@ weapons: [
   spacing: 1
   bullet: {
    type: BasicBulletType
-   damage: 164
+   damage: 1
    speed: 4.1
-   backColor: ffff00
-   frontColor: ffff00
+   backColor: ffe18fff
+   frontColor: ffe18fff
    width: 4.1
    height: 16.4
   }
@@ -74,12 +75,52 @@ weapons: [
   spacing: 1
   bullet: {
    type: BasicBulletType
-   damage: 164
+   damage: 1
    speed: 4.1
-   backColor: 00ff00
-   frontColor: 00ff00
+   backColor: 84f491ff
+   frontColor: 84f491ff
    width: 4.1
    height: 16.4
   } 
+ }
+ {
+  name:invsible
+  reload: 1.64
+  shootsound: tshot
+  x:1
+  y:0
+  shots: 1
+  inaccuracy: 0
+  spacing: 1
+  bullet: {
+   type: BasicBulletType
+   damage: 1
+   speed: 4.1
+   backColor: a4b8faff
+   frontColor: a4b8faff
+   width: 4.1
+   height: 16.4
+  } 
+ }
+ {
+  name: gaybeamer-heat
+  reload: 1.64
+  shootSound: none
+  mirror: false
+  recoil: 0
+  x: 0
+  y: 0
+  shots: 1
+  inaccuracy: 0
+  spacing: 1
+  bullet: {
+   type: BasicBulletType
+   damage: 1
+   speed: 4.1
+   backColor: bf92f9ff
+   frontColor: bf92f9ff
+   width: 4.1
+   height: 16.4
+  }
  }
 ]
