@@ -3,6 +3,7 @@ localizedName: Trailer
 descsription: has a cool trail also rams
 details: speedy and rammy.
 health: 75
+rotateSpeed: 50
 speed: 5
 drag: 0.01
 accel: 0.08
