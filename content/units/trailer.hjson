@@ -10,7 +10,7 @@ flying: true
 engineOffset: 0
 engineSize: 0.01
 range: 140
-targetAir: false
+targetAir: true
 commandLimit: 4
 circleTarget: true
 hitSize: 7
@@ -19,7 +19,7 @@ abilities: [
     type: MoveLightningAbility
     minSpeed: 0
     maxSpeed: 0
-    damage: 1
+    damage: 5
     chance: 1
     length: 5
     color: 00000000
@@ -33,7 +33,7 @@ abilities: [
       length: 0.01
       lifetime: 15
       region: dumb-dump-trailer-trail
-      colorFrom: fffffff25
+      colorFrom: fffffff00
       colorTo: ffffff00
     }
   }
