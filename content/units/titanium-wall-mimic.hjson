@@ -24,10 +24,9 @@ weapons: [
   shots: 1,
   inaccuracy: 0,
   spacing: 1,
-  rotateSpeed: 3.4375,
   bullet: {
    type: BasicBulletType,
-   damage: 5,
+   damage: 6.875,
    speed: 1,
    lifetime: 60,
    backColor: 7c90d2,
