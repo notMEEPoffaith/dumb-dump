@@ -26,7 +26,7 @@ weapons: [
    type: BasicBulletType
    damage: 99999999999999999
    pierce: true,
-   pierceCap: ∞,
+   pierceCap: 999999999999999999999,
    speed: 1
    lifetime: 300
    backColor: c85c51ff
