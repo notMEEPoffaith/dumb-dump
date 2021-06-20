@@ -11,7 +11,7 @@ weapons: [
  {
   name: invisible
   mirror: false
-  reload: 60
+  reload: 30
   shootsound: pew
   rotate: false
   x:0
@@ -19,19 +19,16 @@ weapons: [
   shots: 1
   inaccuracy: 0
   spacing: 1
-  recoil: 10
-  shake: 10
   rotateSpeed: 2.5
   bullet: {
    type: BasicBulletType
    damage: 5
    speed: 1
-   lifetime: 5
+   lifetime: 60
    backColor: c88c62
    frontColor: d99d73
-   width: 0
-   height: 0
-   recoil: 8
+   width: 5
+   height: 5
   } 
  }
 ]
