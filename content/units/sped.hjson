@@ -16,7 +16,7 @@ weapons: [
   shots: 1
   inaccuracy: 0
   spacing: 1
-  recoil: -1
+  recoil: 1
   bullet: {
    type: BasicBulletType
    damage: 1
