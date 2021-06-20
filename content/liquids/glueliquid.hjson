@@ -3,4 +3,4 @@ description: Glue that has not yet been put into a canister. Does not apply stat
 
 color: ebeef5ff
 heatCapacity: 0
-viscosity: 1
+viscosity: 0.99
