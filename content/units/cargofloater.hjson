@@ -1,0 +1,12 @@
+type: payload
+localizedName: Cargofloater
+description: Hovercraft unit. air payload is so confusing aaaaaa
+flying: false
+hitSize: 13
+health: 180
+speed: 2
+payloadCapacity: 63
+drag: 0.05
+accel: 0.05
+isCounted: false
+groundLayer: 89

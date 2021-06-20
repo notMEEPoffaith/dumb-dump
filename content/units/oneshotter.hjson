@@ -11,7 +11,7 @@ weapons: [
  {
   name:oneshotgun
   mirror: false
-  reload: 300
+  reload: 1200
   shootsound: bigshot
   rotate: true
   x:0
