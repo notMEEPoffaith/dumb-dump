@@ -3,7 +3,7 @@ localizedName: Trailer
 descsription: has a cool trail also rams
 details: speedy and rammy.
 health: 75
-speed: 3
+speed: 5
 drag: 0.01
 accel: 0.08
 flying: true
@@ -21,7 +21,7 @@ abilities: [
     maxSpeed: 0
     damage: 1
     chance: 1
-    length: 1
+    length: 5
     color: 00000000
     shootSound: none
     shootEffect: {
