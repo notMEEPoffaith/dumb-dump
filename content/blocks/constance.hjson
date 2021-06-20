@@ -1,0 +1,40 @@
+type: PowerTurret
+localizedName: "Constance"
+description: "Fires a constant damaging beam at enemies."
+
+requirements: [
+	copper/175
+	graphite/100
+	titanium/120
+	silicon/85
+]
+
+powerUse: 1
+shootType: {
+	type: SapBulletType
+	damage: 5
+	length: 200
+	width: 0.5
+	lifetime: 5
+	sapStrength: 0
+	smokeEffect: none
+	despawnEffect: none
+	knockback: 0
+	color: ffa665ff
+	status: null
+}
+
+health: 780
+shootSound: sap
+targetAir: true
+targetGround: true
+rotateSpeed: 10
+recoilAmount: 0.5
+reloadTime: 1
+smokeEffect: none
+ammoUseEffect: none
+
+health: 780
+size: 2
+
+category: turret

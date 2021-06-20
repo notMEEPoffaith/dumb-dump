@@ -17,7 +17,7 @@ const miner = extend(ItemTurret, "miner", {
 	smokeEffect: Fx.none,
 	ammoUseEffect: Fx.none,
 	reloadTime: 20,
-	shots: 1
+	shots: 1,
 	description: "WARNING! What you've just uncovered is broken and may potentially crash your game."
 });
 
@@ -53,7 +53,7 @@ miner.ammo(
 	Items.silicon, mine
 );
 
-miner.setupRequirements(Category.turret, BuildVisibility.hidden ItemStack.with(
+miner.setupRequirements(Category.turret, BuildVisibility.hidden, ItemStack.with(
 	Items.copper, 200,
 	Items.graphite, 300,
 	Items.titanium, 100,
