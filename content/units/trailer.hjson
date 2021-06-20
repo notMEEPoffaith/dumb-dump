@@ -1,0 +1,40 @@
+type: flying
+localizedName: Trailer
+descsription: has a cool trail also rams
+details: speedy and rammy.
+health: 75
+speed: 3
+drag: 0.01
+accel: 0.08
+flying: true
+engineOffset: 0
+engineSize: 0.01
+range: 140
+targetAir: false
+commandLimit: 4
+circleTarget: true
+hitSize: 7
+abilities: [
+  {
+    type: MoveLightningAbility
+    minSpeed: 0
+    maxSpeed: 0
+    damage: 1
+    chance: 1
+    length: 1
+    color: 00000000
+    shootSound: none
+    shootEffect: {
+      type: ParticleEffect
+      layer: 99
+      particles: 1
+      sizeFrom: 6
+      sizeTo: 6
+      length: 0.01
+      lifetime: 15
+      region: trailer-trail
+      colorFrom: fffffff25
+      colorTo: ffffff00
+    }
+  }
+]
