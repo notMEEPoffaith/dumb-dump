@@ -24,7 +24,6 @@ weapons: [
   shots: 1,
   inaccuracy: 0,
   spacing: 1,
-  rotateSpeed: 2.5,
   bullet: {
    type: BasicBulletType,
    damage: 5,
