@@ -1,0 +1,12 @@
+type: Wall
+localizedName: Yellow Pixel
+description: Used for pixel art.
+
+size: 1
+health: 160
+
+category: effects
+requirements: [
+	silicon/3
+  metaglass/3
+]
