@@ -56,7 +56,7 @@ weapons: [
   spacing: 1
   bullet: {
    type: BasicBulletType
-   damage: 1
+   damage: 2
    speed: 4.1
    backColor: ffe18fff
    frontColor: ffe18fff
@@ -75,7 +75,7 @@ weapons: [
   spacing: 1
   bullet: {
    type: BasicBulletType
-   damage: 1
+   damage: 4
    speed: 4.1
    backColor: 84f491ff
    frontColor: 84f491ff
@@ -94,7 +94,7 @@ weapons: [
   spacing: 1
   bullet: {
    type: BasicBulletType
-   damage: 1
+   damage: 8
    speed: 4.1
    backColor: a4b8faff
    frontColor: a4b8faff
@@ -110,7 +110,7 @@ weapons: [
   recoil: 0
   x: 0
   y: 0
-  shots: 1
+  shots: 16
   inaccuracy: 0
   spacing: 1
   bullet: {
