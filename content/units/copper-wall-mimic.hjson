@@ -1,0 +1,9 @@
+localizedName: "Copper Wall Mimic"
+description: "A unit that mimics a copper wall."
+health: 320
+speed: 0.1
+armor: 5
+hitSize: 1
+type: mech
+BaseUnit: GroundUnit
+rotateSpeed: 1
