@@ -1,0 +1,30 @@
+localisedName: sped
+health: 10
+speed: 3
+accel: 0.08
+drag: 0.01
+flying: true
+weapons: [
+ {
+  name:speedthruster
+  mirror: false
+  reload: 3
+  shootsound: bigshot
+  rotate: true
+  x:0
+  y:0
+  shots: 1
+  inaccuracy: 0
+  spacing: 1
+  recoil: -1
+  bullet: {
+   type: BasicBulletType
+   damage: 1
+   speed: -1
+   lifetime: 300
+   width: 5
+   height: 10
+   recoil: 4
+  } 
+ }
+]
