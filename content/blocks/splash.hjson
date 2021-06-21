@@ -22,9 +22,9 @@ ammoTypes: {
    	 liquid: yeetfluid
 	 knockback: 7
    	 drag: 0.01
-  }
+    }
+  } 
 }
-
 recoil: 1
 reloadTime: 30
 shots: 10
