@@ -16,8 +16,8 @@ ammoTypes: {
 }
 
 recoil: 1
-reloadTime: 5
-shots: 3
+reloadTime: 30
+shots: 5
 inaccuracy: 10
 velocityInaccuracy: 0.25
 range: 125
