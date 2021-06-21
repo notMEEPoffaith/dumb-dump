@@ -1,0 +1,40 @@
+type: PowerTurret
+localizedName: "YEETstance"
+description: "Fires a constant YEETING beam at enemies."
+
+requirements: [
+	copper/175
+	graphite/100
+	titanium/120
+	silicon/85
+]
+
+powerUse: 1
+shootType: {
+	type: SapBulletType
+	damage: 0
+	length: 200
+	width: 0.5
+	lifetime: 5
+	sapStrength: 0
+	smokeEffect: none
+	despawnEffect: none
+	knockback: 1
+	color: ffa665ff
+	status: none
+}
+
+health: 780
+shootSound: sap
+targetAir: true
+targetGround: true
+rotateSpeed: 10
+recoilAmount: 0.5
+reloadTime: 1
+smokeEffect: none
+ammoUseEffect: none
+
+health: 780
+size: 1
+
+category: turret
