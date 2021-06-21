@@ -17,12 +17,12 @@ ammoTypes: {
    	 type: LiquidBulletType
    	 liquid: glueliquid
    	 drag: 0.01
+	}
 	yeetfluid: {
    	 type: LiquidBulletType
    	 liquid: yeetfluid
 	 knockback: 7
    	 drag: 0.01
-    }
   } 
 }
 recoil: 1
