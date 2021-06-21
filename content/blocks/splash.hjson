@@ -14,7 +14,7 @@ ammoTypes: {
 	oil: oilShot
 	slag: slagShot
 	glueliquid: {
-   	 type: LiquidBullet
+   	 type: LiquidBulletType
    	 liquid: glueliquid
    	 drag: 0.01
   }
