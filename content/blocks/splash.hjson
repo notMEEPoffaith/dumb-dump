@@ -13,7 +13,7 @@ ammoTypes: {
 	cryofluid: cryoShot
 	oil: oilShot
 	slag: slagShot
-	glue: glueShot
+	glueLiquid: glueShot
 }
 
 recoil: 1
