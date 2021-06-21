@@ -1,0 +1,28 @@
+type: LiquidTurret
+localizedName: Splash
+description: Fires multiple concentrated orbs of liquid at enemies.
+
+requirements: [
+	copper/30
+	metaglass/35
+	lead/55
+]
+
+ammoTypes: {
+	water: waterShot
+	cryofluid: cryoShot
+	oil: oilShot
+	slag: slagShot
+}
+
+recoil: 1
+reloadTime: 5
+shots: 3
+inaccuracy: 10
+velocityInaccuracy: 0.25
+range: 125
+
+health: 460
+size: 1
+
+category: turret
