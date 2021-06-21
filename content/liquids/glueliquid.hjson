@@ -5,7 +5,7 @@ color: fffed9
 heatCapacity: 0
 viscosity: 0.9
 flammability: 0.1
-status: {
+effect: {
 	name: glued
 	localizedName: Glued
 	speedMultiplier: 0.1
