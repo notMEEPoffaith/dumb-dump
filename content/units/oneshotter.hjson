@@ -29,7 +29,7 @@ weapons: [
    pierceBuilding: true
    pierceCap: 999999999999999999999,
    speed: 1
-   lifetime: 300
+   lifetime: 3000
    backColor: c85c51ff
    frontColor: ff795eff
    width: 64
