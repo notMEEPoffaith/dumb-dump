@@ -8,8 +8,6 @@ speed: 5
 drag: 0.01
 accel: 0.08
 flying: true
-engineOffset: 5
-engineSize: 0.01
 range: 140
 targetAir: true
 commandLimit: 4
