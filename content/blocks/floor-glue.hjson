@@ -6,11 +6,7 @@ requirements: [
 	glue/1
 ]
 
-status: {
-	name: glued
-	localizedName: Glued
-	speedMultiplier: 0.1
-}
+speedMultilier: 0.1
 
 breakable: true
 destructible: true
