@@ -1,0 +1,46 @@
+type: LiquidTurret
+localizedName: Splatter
+description: Fires many concentrated orbs of liquid at enemies.
+
+requirements: [
+	copper/30
+	metaglass/35
+	lead/55
+]
+
+ammoTypes: {
+	water: waterShot
+	cryofluid: cryoShot
+	oil: oilShot
+	slag: slagShot
+	glueliquid: {
+   	 type: LiquidBulletType
+   	 liquid: glueliquid
+   	 drag: 0.01
+	}
+	yeetfluid: {
+   	 type: LiquidBulletType
+   	 liquid: yeetfluid
+  	 knockback: 7
+   	 drag: 0.01
+  }
+  psioquid: {
+    type:NormalBulletType
+    color: 31c182
+    knockback: 1
+    speed: 2
+    velocityInnaccuracy: 0.5
+  }
+}
+recoil: 1
+shootsound: pew
+reloadTime: 60
+shots: 25
+inaccuracy: 25
+velocityInaccuracy: 0.25
+range: 125
+
+health: 460
+size: 2
+
+category: turret
