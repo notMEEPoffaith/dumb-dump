@@ -2,7 +2,7 @@ name: "dumb dump"
 displayName: "Dumb Dump"
 author: "notMEEPoffaith"
 description: "First mod that has stuff. Mostly satire. The mod's discord server is https://discord.gg/qXTBJmUG3n"
-version: "2.5"
+version: "2.6"
 minGameVersion: "126.2"
 dependencies: [ ]
 hidden: false
