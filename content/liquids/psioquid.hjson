@@ -1,0 +1,7 @@
+localizedName: Psioquid
+description: A strange and exotic fluid that, when enough force is applied, it will solidify and shatter
+
+color: 31c182
+heatCapacity: 0
+viscosity: 0.5
+flammability: 0
