@@ -28,6 +28,7 @@ abilities: [
     shootEffect: {
       type: none
     }
+  }
   {
     type: MoveLightningAbility
     localizedName: Trail
