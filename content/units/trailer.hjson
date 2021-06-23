@@ -25,10 +25,8 @@ abilities: [
     length: 5
     color: 00000000
     shootSound: none
-    shootEffect: {
-      type: none
+    shootEffect: none
     }
-  }
   {
     type: MoveLightningAbility
     localizedName: Trail
