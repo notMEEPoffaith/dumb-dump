@@ -16,11 +16,27 @@ hitSize: 7
 abilities: [
   {
     type: MoveLightningAbility
-    minSpeed: 0
+    localizedName: Stabbing
+    description: This unit can stab other units with it's spikes!
+    minSpeed: 1
     maxSpeed: 0
     damage: 5
     chance: 1
     length: 5
+    color: 00000000
+    shootSound: none
+    shootEffect: {
+      type: none
+    }
+  {
+    type: MoveLightningAbility
+    localizedName: Trail
+    description: ooo cool trail
+    minSpeed: 0
+    maxSpeed: 0
+    damage: 0
+    chance: 1
+    length: 0
     color: 00000000
     shootSound: none
     shootEffect: {
