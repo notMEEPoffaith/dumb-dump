@@ -1,0 +1,11 @@
+type: Wall
+localizedName: Boomite Wall
+description: "Don't let this be destroyed or it will explode VERY violently. Unless you want that."
+health: 230
+baseExplosiveness: 1000
+flashHit: true
+category: defense
+research: copper-wall
+requirements: [
+  placeholder/6
+]
