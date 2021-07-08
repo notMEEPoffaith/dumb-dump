@@ -20,7 +20,9 @@ abilities: [
     description: basically just z a p
     damage: 10
     chance: 1
-    length: 25
+    minSpeed: 0
+    maxSpeed: 0
+    length: 10
     width: 2.5
     shootSound: none
     shootEffect: none
