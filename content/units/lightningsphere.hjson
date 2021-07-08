@@ -24,6 +24,5 @@ abilities: [
     width: 2.5
     shootSound: none
     shootEffect: none
-    }
   }
 ]
