@@ -1,0 +1,29 @@
+type: flying
+localizedName: Tesla Sphere
+descsription: just spams zap.
+details: you have to get it moving first for it to work cuz movelighning jank.
+health: 75
+rotateSpeed: 50
+speed: 5
+drag: 0.01
+accel: 0.08
+flying: true
+range: 140
+targetAir: true
+commandLimit: 4
+circleTarget: true
+hitSize: 7
+abilities: [
+  {
+    type: MoveLightningAbility
+    localizedName: Tesla
+    description: basically just z a p
+    damage: 10
+    chance: 1
+    length: 25
+    width: 2.5
+    shootSound: none
+    shootEffect: none
+    }
+  }
+]
