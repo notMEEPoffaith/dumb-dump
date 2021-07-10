@@ -36,14 +36,14 @@ weapons: [
 abilities: [
   {
     type: UnitSpawnAbility
-    spawnX: 8
+    spawnX: 10
     spawnY: 0
     unit: replicator
     spawnTime: 600
   },
   {
     type: UnitSpawnAbility
-    spawnX: -8
+    spawnX: -10
     spawnY: 0
     unit: replicator
     spawnTime: 600
