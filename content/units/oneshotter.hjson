@@ -1,40 +1,43 @@
-localizedName: "Oneshotter"
-description: "Shoots a gigantic bullet of doom."
-health: 24000
-speed: 0.35
-armor: 14
-hitSize: 28
-type: mech
-BaseUnit: GroundUnit
-rotateSpeed: 1
+localizedName: "Oneshotter",
+description: "Shoots a gigantic bullet of doom.",
+health: 24000,
+speed: 0.35,
+armor: 14,
+hitSize: 28,
+type: mech,
+BaseUnit: GroundUnit,
+rotateSpeed: 1,
 weapons: [
  {
-  name:oneshotgun
-  mirror: false
-  reload: 1200
-  shootsound: bigshot
-  rotate: true
-  x:0
-  y:0
-  shots: 1
-  inaccuracy: 0
-  spacing: 1
-  recoil: 10
-  shake: 10
-  rotateSpeed: 2.5
+  name:oneshotgun,
+  mirror: false,
+  reload: 1200,
+  shootsound: bigshot,
+  rotate: true,
+  x:0,
+  y:0,
+  shots: 1,
+  inaccuracy: 0,
+  spacing: 1,
+  recoil: 10,
+  shake: 10,
+  rotateSpeed: 2.5,
   bullet: {
-   type: BasicBulletType
-   damage: 99999999999999999
+   type: BasicBulletType,
+   damage: 99999999999999999,
    pierce: true,
-   pierceBuilding: true
+   pierceBuilding: true,
+   absorbable: false,
+   reflectable: false,
+   hittable: false,
    pierceCap: 999999999999999999999,
-   speed: 1
-   lifetime: 3000
-   backColor: c85c51ff
-   frontColor: ff795eff
-   width: 64
-   height: 64
-   recoil: 8
+   speed: 1,
+   lifetime: 3000,
+   backColor: c85c51ff,
+   frontColor: ff795eff,
+   width: 64,
+   height: 64,
+   recoil: 8,
   } 
  }
 ]
