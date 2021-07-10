@@ -1,0 +1,51 @@
+type: flying
+localizedName: Replicator
+description: An augmented Flare that can make copies of itself.
+health: 75
+speed: 3
+drag: 0.01
+accel: 0.08
+flying: true
+engineOffset: 0
+engineSize: 0.01
+range: 140
+targetAir: false
+commandLimit: 4
+circleTarget: true
+hitSize: 7
+weapons: [
+	{
+		x: 2
+		y: 0
+		reload: 13
+		ejectEffect: casing1
+		bullet: {
+			type: BasicBulletType
+			damage: 9
+			speed: 2.5
+			width: 7
+			height: 9
+			lifetime: 45
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+		}
+		shootSound: pew
+	}
+]
+abilities: [
+  {
+    type: UnitSpawnAbility
+    spawnX: 7
+    spawnY: 0
+    unit: replicator
+    spawnTime: 600
+  },
+  {
+    type: UnitSpawnAbility
+    spawnX: -7
+    spawnY: 0
+    unit: replicator
+    spawnTime: 600
+  }
+]
