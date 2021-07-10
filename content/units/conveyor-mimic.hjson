@@ -1,5 +1,5 @@
-localizedName: "Copper Wall Mimic"
-description: "A unit that mimics a copper wall."
+localizedName: "Conveyor Mimic"
+description: "A unit that mimics a conveyor."
 health: 45,
 speed: 0.5,
 armor: 0,
@@ -10,7 +10,7 @@ hitSize: 8,
 type: mech,
 BaseUnit: GroundUnit,
 rotateSpeed: 5,
-rotateShooting: false,
+rotateShooting: true,
 weapons: [
  {
   name: invisible,
