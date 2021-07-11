@@ -1,6 +1,6 @@
 {
 type: GenericCrafter,
-localizedName: Box Maker,
+localizedName: "Box Maker",
 description: "Makes item boxes.",
 size: 2,
 health: 1200,
