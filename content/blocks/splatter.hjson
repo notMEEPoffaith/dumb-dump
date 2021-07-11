@@ -29,6 +29,7 @@ ammoTypes: {
     color: 31c182
     knockback: 1
     speed: 2
+    damage: 5
     velocityInnaccuracy: 0.5
   }
 }
