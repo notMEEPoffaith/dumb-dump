@@ -1,0 +1,32 @@
+{
+type: GenericCrafter,
+size: 2,
+health: 1200,
+craftTime: 20,
+itemCapacity: 0,
+ambientSound: smelter,
+ambientSoundVolume: 0.03,
+craftEffect: pulverizeMedium,
+hasPower: true,
+hasItems: true,
+consumes:
+{power: 4,
+ items:
+ {items: [
+            copper/5
+            lead/5
+            graphite/5
+           ]
+ }
+},
+outputItem item-box/1,
+research graphite-press,
+requirements:
+[ silicon/200,
+  thorium/150,
+  graphite/200,
+  plastanium/150,
+  metaglass/150
+]
+category: crafting
+}
