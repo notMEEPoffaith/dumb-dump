@@ -1,4 +1,3 @@
-{
 type: GenericCrafter
 size: 2
 localizedName: "Box Unpacker"
@@ -10,20 +9,22 @@ ambientSound: smelter
 ambientSoundVolume: 0.03
 craftEffect: pulverizeMedium
 hasItems: true
- items:
- {items: [
-            item-box-copper/1
-           ]
- }
+consumes: {
+ items: {
+   items: [
+    item-box-copper/1
+    ]
+  }
 }
 outputItem: copper/10
 research: box-maker
-requirements:
-[ silicon/200
-  thorium/150
-  graphite/200
-  plastanium/150
-  metaglass/150
+requirements: [
+  copper/200
+  lead/500
+  graphite/100
+  titanium/300
+  surge-alloy/50
+  phase-fabric/70
+  plastanium/60
 ]
 category: crafting
-}
