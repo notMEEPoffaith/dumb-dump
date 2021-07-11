@@ -16,7 +16,6 @@ consumes:
  items:
  {items: [
             item-box/1
-            copper/10
            ]
  }
 },
