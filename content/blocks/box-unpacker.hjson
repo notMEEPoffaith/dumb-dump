@@ -12,7 +12,7 @@ craftEffect: pulverizeMedium
 hasItems: true
  items:
  {items: [
-            "item-box-copper/1"
+            item-box-copper/1
            ]
  }
 }
