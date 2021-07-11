@@ -1,18 +1,18 @@
 {
-type: GenericCrafter,
-localizedName: "Box Maker",
-description: "Makes item boxes.",
-size: 2,
-health: 1200,
-craftTime: 20,
-itemCapacity: 0,
-ambientSound: smelter,
-ambientSoundVolume: 0.03,
-craftEffect: pulverizeMedium,
-hasPower: true,
-hasItems: true,
+type: GenericCrafter
+localizedName: "Box Maker"
+description: "Makes item boxes."
+size: 2
+health: 1200
+craftTime: 20
+itemCapacity: 0
+ambientSound: smelter
+ambientSoundVolume: 0.03
+craftEffect: pulverizeMedium
+hasPower: true
+hasItems: true
 consumes:
-{power: 4,
+{power: 4
  items:
  {items: [
             copper/5
@@ -21,13 +21,13 @@ consumes:
            ]
  }
 },
-outputItem item-box/1,
-research graphite-press,
+outputItem item-box/1
+research graphite-press
 requirements:
-[ silicon/200,
-  thorium/150,
-  graphite/200,
-  plastanium/150,
+[ silicon/200
+  thorium/150
+  graphite/200
+  plastanium/150
   metaglass/150
 ]
 category: crafting
