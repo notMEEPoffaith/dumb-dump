@@ -1,7 +1,7 @@
 type: flying
-localizedName: [#ff0000]ohno
-description: [#ff0000]o h n o
-details: [#ff0000]o  h  n  o
+localizedName: "[#ff0000]ohno"
+description: "[#ff0000]o h n o"
+details: "[#ff0000]o  h  n  o"
 health: 69666420
 armor: 69666420
 speed: 3
