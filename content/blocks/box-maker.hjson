@@ -10,9 +10,8 @@ ambientSoundVolume: 0.03
 craftEffect: pulverizeMedium
 hasPower: true
 hasItems: true
-consumes:
 consumes: {
-  power: 5.4
+  power: 4
     items: {
       items: [
       copper/5
