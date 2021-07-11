@@ -2,7 +2,7 @@
 type: GenericCrafter
 size: 2
 localizedName: "Box Unpacker"
-description: "Unpacks packed boxes."
+description: "Unpacks packed boxes. Unfortinatley, the box is lost in the process due to being unable to have crafters have 2 outputs."
 health: 1200
 craftTime: 10
 itemCapacity: 20
@@ -18,7 +18,6 @@ hasItems: true
 }
 outputItem: [
 "copper/10"
-"box/1"
 ]
 research: box-maker
 requirements:
