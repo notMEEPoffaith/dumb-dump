@@ -18,7 +18,7 @@ hasItems: true
 }
 outputItem: [
 "copper/10"
-"box/1
+"box/1"
 ]
 research: box-maker
 requirements:
