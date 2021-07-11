@@ -16,11 +16,11 @@ hasItems: true
            ]
  }
 }
-outputitem: [
+outputItem: [
 "copper/10"
 "box/1
 ]
-research box-maker
+research: box-maker
 requirements:
 [ silicon/200
   thorium/150
