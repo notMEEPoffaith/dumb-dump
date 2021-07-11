@@ -16,7 +16,7 @@ hasItems: true
            ]
  }
 }
-outputItem: "copper/10"
+outputItem: copper/10
 research: box-maker
 requirements:
 [ silicon/200
