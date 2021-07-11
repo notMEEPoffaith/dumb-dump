@@ -1,0 +1,36 @@
+type: flying
+localizedName: [#ff0000]ohno
+description: [#ff0000]o h n o
+details: [#ff0000]o  h  n  o
+health: 69666420
+armor: 69666420
+speed: 3
+flying: true
+range: 140
+targetAir: false
+commandLimit: 4
+circleTarget: true
+hitSize: 7
+
+weapons: [
+	{
+		x: 0
+		y: 0
+		reload: 4.2066669
+    mirror: false
+		ejectEffect: casing1
+		bullet: {
+			type: BasicBulletType
+			damage: 69666420
+			speed: 2.5
+			width: 50
+			height: 50
+			lifetime: 69420
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 69666420
+			sprite: dumb-dump-ohno
+		}
+		shootSound: pew
+	}
+]
