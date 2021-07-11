@@ -20,7 +20,7 @@ consumes:
            ]
  }
 },
-outputItem item-box-copper/1
+outputItem: item-box-copper/1
 research: box-maker
 requirements:
 [ silicon/200
