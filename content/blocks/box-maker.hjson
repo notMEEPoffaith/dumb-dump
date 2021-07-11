@@ -20,8 +20,8 @@ consumes: {
       ]
    }
 }
-outputItem item-box/1
-research graphite-press
+outputItem: item-box/1
+research: graphite-press
 requirements: [
   copper/200
   lead/500
