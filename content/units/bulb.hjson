@@ -11,7 +11,7 @@ targetAir: true
 commandLimit: 4
 circleTarget: true
 hitSize: 7
-flyingUnitLayer: 105
+visualElevation: 105
 weapons: [
   {
     name: invisible
