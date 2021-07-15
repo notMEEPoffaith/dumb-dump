@@ -1,0 +1,36 @@
+type: flying
+localizedName: Bulb
+description: The T1 of the Glow chain of units.
+health: 150
+speed: 3
+drag: 0.05
+accel: 0.16
+flying: true
+range: 125
+targetAir: true
+commandLimit: 4
+circleTarget: true
+hitSize: 7
+flyingUnitLayer: 105
+weapons: [
+  {
+    name: invisible
+    top: false
+    x: 0
+    y: 5
+    reload: 30
+    recoil: 0
+    shootY: 4
+    shootSound: laser
+    shake: 0.8
+    bullet: {
+      type: LaserBulletType
+      damage: 10
+      recoil: 0.5
+      length: 120
+      width: 10
+      colors: [f5848640, f58486, ffffff]
+      lightColor: f58486
+    }
+  }
+]
