@@ -17,7 +17,7 @@ weapons: [
     name: invisible
     top: false
     x: 0
-    y: 5
+    y: 0
     reload: 30
     recoil: 0
     shootY: 4
