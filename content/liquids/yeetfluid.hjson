@@ -5,9 +5,9 @@ heatCapacity: 90
 viscosity: 0.5
 flammability: 0
 effect: {
-	name: yeetboost
+	name: yeetsurge
 	localizedName: Yeetfluid Surge
-	description: I have no idea how this works, so don't ask.
+	description: Somehow the yeetfluid provides a power surge to the unit's system. Don't ask.
 	speedMultiplier: 5
 	damageMultiplier: 5
 	reloadMultiplier: 5
