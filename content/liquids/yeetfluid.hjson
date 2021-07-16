@@ -8,16 +8,16 @@ effect: {
 	name: yeetsurge
 	localizedName: Yeetfluid Surge
 	description: Somehow the yeetfluid provides a power surge to the unit's system. Don't ask.
-	speedMultiplier: 5
+	speedMultiplier: 2.5
 	damageMultiplier: 5
 	reloadMultiplier: 5
 	effect: {
 		type: ParticleEffect
 		particles: 2
 		length: 2
-		lifetime: 14
+		lifetime: 48
 		sizeFrom: 0
-		sizeTo: 6
+		sizeTo: 12
     colorFrom: c131c1
 		colorTo: c131c100
 	}
