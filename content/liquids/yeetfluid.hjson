@@ -18,7 +18,7 @@ effect: {
 		lifetime: 48
 		sizeFrom: 0
 		sizeTo: 12
-    colorFrom: c131c1
+   		colorFrom: c131c1
 		colorTo: c131c100
 	}
 }
