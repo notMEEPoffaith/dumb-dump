@@ -1,7 +1,24 @@
 localizedName: Yeetfluid
-description: A legendary fluid that has the magical power to yeet everything it hits. It also can be used as a supercoolant, being 100x as good as cyrofluid.
-
+description: A legendary fluid that has the magical power to yeet everything it hits. It also can be used as a supercoolant, being 100x as good as cyrofluid. It also somehow boosts units that touch it when it's not yeeted by a liquid turret.
 color: c131c1
 heatCapacity: 90
 viscosity: 0.5
 flammability: 0
+effect: {
+	name: yeetboost
+	localizedName: Yeetboost
+  description: I have no idea how this works, so don't ask.
+	speedMultiplier: 5
+  damageMultiplier: 5
+  reloadMultiplier: 5
+	effect: {
+		type: ParticleEffect
+		particles: 2
+		length: 2
+		lifetime: 14
+		sizeFrom: 0
+		sizeTo: 6
+    colorFrom: c131c1
+		colorTo: c131c100
+	}
+}
