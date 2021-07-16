@@ -6,11 +6,11 @@ viscosity: 0.5
 flammability: 0
 effect: {
 	name: yeetboost
-	localizedName: Yeetboost
-  description: I have no idea how this works, so don't ask.
+	localizedName: Yeetfluid Surge
+	description: I have no idea how this works, so don't ask.
 	speedMultiplier: 5
-  damageMultiplier: 5
-  reloadMultiplier: 5
+	damageMultiplier: 5
+	reloadMultiplier: 5
 	effect: {
 		type: ParticleEffect
 		particles: 2
