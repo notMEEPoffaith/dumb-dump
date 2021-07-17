@@ -1,0 +1,14 @@
+flying: true
+name: Snek
+description: "ripped right out of ThePythonGuy3 / MindBlow so uh yea check that out"
+health: 15000
+mass: 5
+hitsize: 20
+speed: 2
+drag: 0.001
+maxVelocity: 2.2
+rotatespeed: 0.03
+baseRotateSpeed: 0.01
+attackLength: 200
+engineOffset: 6
+engineSize: 2.4
