@@ -1,0 +1,26 @@
+localisedName: sped
+health: 10
+speed: 3
+accel: 0.08
+drag: 0.01
+flying: true
+weapons: [
+  {
+    x: 0
+    y: 0
+    shootCone: 360
+    reload: 360
+    mirror: false
+    shots: 360
+    spacing: 8
+    shotDelay: 1
+    shootSound: none
+    bullet: {
+      type: LaserBulletType
+      length: 150
+      damage: 80
+      shootEffect: none
+      smokeEffect: none
+    }
+  }
+]
