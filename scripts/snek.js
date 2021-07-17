@@ -1,6 +1,6 @@
 const wormlib = require("dumb-dump/worm-base");
 
-const python = extendContent(UnitType, "snek", {
+const snek = extendContent(UnitType, "snek", {
 	load(){
 		this.super$load();
 		this.region = Core.atlas.find(this.name);
@@ -26,30 +26,30 @@ const python = extendContent(UnitType, "snek", {
 	}
 });
 
-const pythonBullet = extend(BasicBulletType, {});
-pythonBullet.keepVelocity = false;
-pythonBullet.damage = 35;
-pythonBullet.speed = 5;
-pythonBullet.lifetime = 30;
-pythonBullet.bulletShrink = 0;
-pythonBullet.bulletWidth = 10;
-pythonBullet.bulletHeight = 14;
-pythonBullet.frontColor = Color.valueOf("d187ff");
-pythonBullet.backColor = Color.valueOf("976bff");
+const snekBullet = extend(BasicBulletType, {});
+snekBullet.keepVelocity = false;
+snekBullet.damage = 35;
+snekBullet.speed = 5;
+snekBullet.lifetime = 30;
+snekBullet.bulletShrink = 0;
+snekBullet.bulletWidth = 10;
+snekBullet.bulletHeight = 14;
+snekBullet.frontColor = Color.valueOf("d187ff");
+snekBullet.backColor = Color.valueOf("976bff");
 
-const pythonBlaster = extendContent(Weapon, "snek-blaster", {
+const snekBlaster = extendContent(Weapon, "snek-blaster", {
 	load(){
 		this.region = Core.atlas.find("clear");
 	}
 });
-pythonBlaster.alternate = false;
-pythonBlaster.reload = 45;
-pythonBlaster.bullet = snekBullet;
-pythonBlaster.shootSound = Sounds.bigshot;
+snekBlaster.alternate = false;
+snekBlaster.reload = 45;
+snekBlaster.bullet = snekBullet;
+snekBlaster.shootSound = Sounds.bigshot;
 
-python.weapon = SnekBlaster;
-python.shootCone = 90;
-python.create(prov(() => {
+snek.weapon = SnekBlaster;
+snek.shootCone = 90;
+snek.create(prov(() => {
 	unit = wormlib.newBase(20, 11.5, 0.01, 120, true, null, null, null, null, null, []);
 	return unit;
 }));
