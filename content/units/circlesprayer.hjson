@@ -1,5 +1,5 @@
-localisedName: sped
-health: 10
+localizedName: Circlesprayer
+health: 100
 speed: 3
 accel: 0.08
 drag: 0.01
@@ -11,9 +11,9 @@ weapons: [
     shootCone: 360
     reload: 360
     mirror: false
-    shots: 360
-    spacing: 8
-    shotDelay: 1
+    shots: 36
+    spacing: 1
+    shotDelay: 0.1
     shootSound: none
     bullet: {
       type: LaserBulletType
