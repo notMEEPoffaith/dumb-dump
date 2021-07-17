@@ -9,9 +9,9 @@ weapons: [
     x: 0
     y: 0
     shootCone: 360
-    reload: 360
+    reload: 36
     mirror: false
-    shots: 36
+    shots: 360
     spacing: 1
     shotDelay: 0.1
     shootSound: none
