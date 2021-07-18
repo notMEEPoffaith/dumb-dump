@@ -1,0 +1,47 @@
+type: flying
+localizedName: Fireballer
+description: A unit that can shoot fireballs.
+health: 75
+speed: 3
+drag: 0.01
+accel: 0.08
+flying: true
+range: 140
+targetAir: false
+commandLimit: 4
+circleTarget: true
+hitSize: 7
+weapons: [
+	{
+		x: 2
+		y: 0
+		reload: 13
+		ejectEffect: casing1
+		bullet: {
+			type: BasicBulletType
+			damage: 9
+			speed: 2.5
+			width: 7
+			height: 9
+			lifetime: 45
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+  		trailEffect: {
+         type: ParticleEffect",
+         particles: 30,
+         length: 7,
+         baseLength: 7,
+         lifetime: 25,
+         interp: "circleOut",
+         cone: 360,
+         offset: 5,
+         colorFrom: "ffb855",
+         colorTo: "db661c",
+         sizeFrom: 5,
+         sizeTo: 0
+  		},
+		}
+		shootSound: pew
+	}
+]
