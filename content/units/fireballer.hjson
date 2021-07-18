@@ -13,21 +13,22 @@ circleTarget: true
 hitSize: 7
 weapons: [
 	{
-		x: 2
-		y: 0
-		reload: 13
-		ejectEffect: casing1
-		bullet: {
-			type: BasicBulletType
-			damage: 9
-			speed: 2.5
-			width: 7
-			height: 9
-			lifetime: 45
-			shootEffect: shootSmall
-			smokeEffect: shootSmallSmoke
-			ammoMultiplier: 2
-  		trailEffect: {
+	x: 2
+	y: 0
+	reload: 13
+	ejectEffect: casing1
+	bullet: {
+	type: BasicBulletType
+	damage: 9
+	speed: 2.5
+	width: 7
+	height: 9
+	lifetime: 45
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+	ammoMultiplier: 2
+	trailChance": 1
+  	trailEffect: {
          type: ParticleEffect",
          particles: 30,
          length: 7,
