@@ -27,19 +27,19 @@ weapons: [
 	shootEffect: shootSmall
 	smokeEffect: shootSmallSmoke
 	ammoMultiplier: 2
-	trailChance": 1
+	trailChance: 1
   	trailEffect: {
-         type: ParticleEffect",
-         particles: 30,
-         length: 7,
-         baseLength: 7,
-         lifetime: 25,
-         interp: "circleOut",
-         cone: 360,
-         offset: 5,
-         colorFrom: "ffb855",
-         colorTo: "db661c",
-         sizeFrom: 5,
+         type: ParticleEffect
+         particles: 30
+         length: 7
+         baseLength: 7
+         lifetime: 25
+         interp: circleOut
+         cone: 360
+         offset: 5
+         colorFrom: ffb855
+         colorTo: db661c
+         sizeFrom: 5
          sizeTo: 0
   		},
 		}
