@@ -28,7 +28,7 @@ weapons:[
        "inaccuracy": 0,
        "reload": 5,
        "bullet": {"type": "MissileBulletType",
-                  "weaveMag": 2,
+                  "weaveMag": 4,
                   "weaveScale": 12,
                   "lifeTime": 500,
                   "speed": 5,
