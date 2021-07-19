@@ -28,6 +28,8 @@ weapons:[
        "inaccuracy": 0,
        "reload": 5,
        "bullet": {"type": "MissileBulletType",
+                  "homingPower": 0,
+                  "homingRange": 0,
                   "weaveMag": 2,
                   "weaveScale": 6,
                   "lifeTime": 500,
