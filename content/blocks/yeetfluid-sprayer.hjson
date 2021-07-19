@@ -1,4 +1,5 @@
 localizedName: Yeetfluid Sprayer
+description: Sprays yeetfluid onto nearby blocks, boosting them a lot.
 type: OverdriveProjector
 size: 3
 health: 1080
