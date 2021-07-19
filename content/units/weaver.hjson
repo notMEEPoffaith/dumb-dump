@@ -24,8 +24,8 @@ weapons:[
        "shake": 1,
        "shots": 2,
        "shootSound": "missile",
-       "velocityRnd": 0.2,
-       "inaccuracy": 5
+       "velocityRnd": 0,
+       "inaccuracy": 0,
        "reload": 5,
        "bullet": {"type": "MissileBulletType",
                   "weaveMag": 2,
