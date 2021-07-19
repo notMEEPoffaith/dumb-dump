@@ -1,0 +1,48 @@
+localizedName: "Weaver"
+description: "unit that shoots a lotta weaving missiles because YES. Uses basically missile gamma's code because im lasy as hell."
+flying: true
+rotateShooting: false
+mineSpeed: 8
+mineTier: 2
+buildSpeed: 1
+drag: 0.05
+speed: 3.55
+rotateSpeed: 19
+accel: 0.11
+itemCapacity: 70
+health: 220
+engineOffset: 6
+hitSize: 11
+commandLimit: 5
+weapons:[
+ {"name": "weaver-missiles",
+       "x": 0,
+       "y": 0,
+       "mirror": false,
+       "ejectEffect": none,
+       "rotate": true,
+       "shake": 1,
+       "shots": 2,
+       "shootSound": "missile",
+       "velocityRnd": 0.2,
+       "inaccuracy": 5
+       "reload": 5,
+       "bullet": {"type": "MissileBulletType",
+                  "weaveMag": 2,
+                  "weaveScale": 12,
+                  "lifeTime": 50,
+                  "speed": 5,
+                  "drag": 0,
+                  "keepVelocity": false,
+                  "hitEffect": "blastExplosion",
+                  "despawnEffect": "blastExplosion",
+                  "hitSound": none,
+                  "frontColor": d06b53,
+                  "backColor": ffa665,
+                  "trailColor": d06b53,
+                  "length": 8,
+                  "width": 8,
+                  "splashDamageRadius": 25,
+                  "splashDamage": 15,
+                  "damage": 14}
+    }],
