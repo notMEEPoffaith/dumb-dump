@@ -1,0 +1,16 @@
+localizedName: Yeetfluid Sprayer
+type: OverdriveProjector
+size: 3
+health: 1080
+range: 210
+speedBoost: 91
+baseColor: c131c1
+category: effect
+hasBoost: false
+consumes: {
+  power: 1
+  liquid: {
+    liquid: yeetfluid
+    amount: 1
+  }
+}
