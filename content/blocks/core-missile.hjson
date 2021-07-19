@@ -1,0 +1,19 @@
+type: CoreBlock
+size: 6
+description: nucleus core but missile.
+details: m i s i e l.
+health: 6000
+unitType: "missilegamma"
+itemCapacity: 13000
+unitCapModifier: 30
+requirements: [
+{item: copper, amount: 8000}
+{item: lead, amount: 8000}
+{item: thorium, amount: 4000}
+{item: silicon, amount: 5030}
+{item: lead, amount: 8000}
+{item: plastanium, amount: 45}
+{item: titanium, amount: 35}
+{item: graphite, amount: 45}
+]
+category: effect
