@@ -30,7 +30,7 @@ weapons:[
        "bullet": {"type": "MissileBulletType",
                   "weaveMag": 2,
                   "weaveScale": 12,
-                  "lifeTime": 50,
+                  "lifeTime": 500,
                   "speed": 5,
                   "drag": 0,
                   "keepVelocity": false,
