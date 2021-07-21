@@ -1,0 +1,13 @@
+type: Conveyor
+size: 2
+localizedName: 2x2 Conveyor
+description: normal conveyor but chomnk
+health: 180
+itemCapacity: 8
+requirements: [
+  copper/4
+]
+category: distribution
+speed: 0.03
+displayedSpeed: 4.2
+research: conveyor
