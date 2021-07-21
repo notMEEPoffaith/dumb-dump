@@ -8,5 +8,4 @@ requirements: [
 ]
 category: distribution
 speed: 99
-displayedSpeed: "too fast"
 research: conveyor
