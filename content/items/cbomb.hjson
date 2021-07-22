@@ -1,0 +1,8 @@
+localizedName: Crawler Bomb
+description: Insert this into a crawler to make the crawler do a big boom.
+explosiveness: 999999
+charge: 999999
+flammability: 999999
+radioactivity: 999999
+details: *BOOMZAPfiresoundsradiationsounds*
+color: 989aa4
