@@ -2,9 +2,16 @@ type: Conveyor
 localizedName: teleport conveyor
 description: TOO FAST!
 details: *steps on and leg gets ripped off and also gets yeeted to brazil*
-health: 180
+health: 69420
 requirements: [
-  copper/4
+  copper/69
+  titanium/69
+  lead/69
+  graphite/69
+  silicon/69
+  plastanium/69
+  metaglass/69
+  thorium/69
 ]
 category: distribution
 speed: 99
