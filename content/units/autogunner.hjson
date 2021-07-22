@@ -1,15 +1,16 @@
 type: flying
 localizedName: Autogunner
-description: hehe v7 go brrr
+description: haha v7 go brrr
 health: 75
+rotateShooting: false
 speed: 3
 drag: 0.01
 accel: 0.08
 flying: true
-range: 140
-targetAir: false
+range: 120
+targetAir: true
 commandLimit: 4
-circleTarget: true
+circleTarget: false
 hitSize: 7
 weapons: [
 	{
@@ -19,21 +20,16 @@ weapons: [
 		reload: 13
     controllable: false
     autoTarget: true
-    predictTarget: true
+    predictTarget: false
     rotate: true
     mirror: false
 		ejectEffect: casing1
-		bullet: {
-			type: BasicBulletType
-			damage: 9
-			speed: 2.5
-			width: 7
-			height: 9
-			lifetime: 45
-			shootEffect: shootSmall
-			smokeEffect: shootSmallSmoke
-			ammoMultiplier: 2
-		}
-		shootSound: pew
+    bullet: {
+      type: LaserBulletType
+      damage: 50
+      length: 120
+      width: 25
+    }
+		shootSound: laser
 	}
 ]
