@@ -1,4 +1,6 @@
 type: naval
+localizedName: Cerce
+details: the T3 naval support version of the flar
 
 health: 870
 speed: 0.86
