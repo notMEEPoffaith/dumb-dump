@@ -27,7 +27,7 @@ weapons: [
   y: -10
   beamWidth: 0.8
   repairSpeed: 0.7
-)
+}
   bullet: {
     maxRange: 130
 }
