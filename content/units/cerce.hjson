@@ -66,14 +66,14 @@ weapons: [
     keepVelocity: false
     lightRadius: 60
     lightOpacity: 0.7
-    lightColor: heal //98ffa9 in hex
+    lightColor: 98ffa9 //heal in not hex
 
     splashDamageRadius: 30
     splashDamage: 25
 
     lifetime: 80
-    backColor: heal //98ffa9 in hex
-    frontColor: white //ffffff in hex
+    backColor: 98ffa9 //heal in not hex
+    frontColor: ffffff //white in not hex
 
     hitEffect: {
       type: ExplosionEffect
@@ -83,8 +83,8 @@ weapons: [
       waveRadBase: 7
       waveRad: 30
       smokes: 6
-      smokeColor: white //ffffff in hex
-      sparkColor: heal //98ffa9 in hex
+      smokeColor: ffffff //white in not hex
+      sparkColor: 98ffa9 //heal in not hex
       sparks: 6
       sparksRad: 35
       sparkStroke: 1.5
@@ -94,7 +94,7 @@ weapons: [
     weaveScale: 8
     weaveMag: 1
 
-    trailColor: heal //98ffa9 in hex
+    trailColor: 98ffa9 //heal in not hex
     trailWidth: 4.5
     trailLength: 29
 
@@ -114,21 +114,21 @@ weapons: [
       smokeEffect: hitLaser
       splashDamage: 13
       splashDamageRadius: 20
-      frontColor: white //ffffff in hex
+      frontColor: ffffff //white in not hex
       hitSound: none
 
-      lightColor: heal //98ffa9 in hex
+      lightColor: 98ffa9 //heal in not hex
       lightRadius: 40
       lightOpacity: 0.7
 
-      trailColor: heal //98ffa9 in hex
+      trailColor: 98ffa9 //heal in not hex
       trailWidth: 2.5
       trailLength: 20
       trailChance: -1
 
       healPercent: 2.8
       collidesTeam: true
-      backColor: heal //98ffa9 in hex
+      backColor: 98ffa9 //heal in not hex
 
       despawnEffect: none
       hitEffect: {
@@ -136,11 +136,11 @@ weapons: [
 
         lifetime: 20
         waveStroke: 2
-        waveColor: heal //98ffa9 in hex
+        waveColor: 98ffa9 //heal in not hex
         waveRad: 12
         smokeSize: 0
         smokeSizeBase: 0
-        sparkColor: heal //98ffa9 in hex
+        sparkColor: 98ffa9 //heal in not hex
         sparks: 9
         sparksRad: 35
         sparksLen: 4
