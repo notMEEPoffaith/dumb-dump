@@ -1,0 +1,150 @@
+type: naval
+
+health: 870
+speed: 0.86
+accel: 0.22
+rotateSpeed: 2.6
+drag: 0.16
+hitSize: 20
+armor: 6
+rotateShooting: false
+
+trailLength: 23
+trailX: 9
+trailY: -9
+trailScl: 2
+
+buildSpeed: 2
+
+weapons: [
+{
+  type: RepairBeamWeapon
+  name: "repair-beam-weapon-center"
+
+  x: 11
+  y: -10
+  beamWidth: 0.8
+  repairSpeed: 0.7
+
+  bullet: {
+    maxRange: 130
+}
+{
+  type: Weapon
+  name: plasma-missile-mount
+
+  reload: 60
+  x: 9
+  y: 3
+
+  shadow: 5
+
+  rotateSpeed: 4
+  rotate: true
+  inaccuracy: 1
+  velocityRnd: 0.1
+  shootSound: missile
+
+  ejectEffect: none
+  bullet: {
+    type: FlakBulletType
+    speed: 2.5
+    damage: 25
+
+    sprite: "missile-large"
+    //for targeting
+    collidesGround: true
+    collidesAir: true
+    explodeRange: 40
+    width: 12
+    height: 12
+    shrinkY: 0
+    drag: -0.003
+    homingRange: 60
+    keepVelocity: false
+    lightRadius: 60
+    lightOpacity: 0.7
+    lightColor: heal //98ffa9 in hex
+
+    splashDamageRadius: 30
+    splashDamage: 25
+
+    lifetime: 80
+    backColor: heal //98ffa9 in hex
+    frontColor: white //ffffff in hex
+
+    hitEffect: {
+      type: ExplosionEffect
+      lifetime: 28
+      waveStroke: 6
+      waveLife: 10
+      waveRadBase: 7
+      waveRad: 30
+      smokes: 6
+      smokeColor: white //ffffff in hex
+      sparkColor: heal //98ffa9 in hex
+      sparks: 6
+      sparksRad: 35
+      sparkStroke: 1.5
+      sparkLen: 4
+    }
+
+    weaveScale: 8
+    weaveMag: 1
+
+    trailColor: heal //98ffa9 in hex
+    trailWidth: 4.5
+    trailLength: 29
+
+    fragBullets: 7
+    fragVelocityMin: 0.3
+
+    fragBullet: {
+      type: MissileBulletType
+      speed: 3.9
+      damage: 11
+
+      homingPower: 0.2
+      weaveMag: 4
+      weaveScale: 4
+      lifetime: 60
+      shootEffect: shootHeal
+      smokeEffect: hitLaser
+      splashDamage: 13
+      splashDamageRadius: 20
+      frontColor: white //ffffff in hex
+      hitSound: none
+
+      lightColor: heal //98ffa9 in hex
+      lightRadius: 40
+      lightOpacity: 0.7
+
+      trailColor: heal //98ffa9 in hex
+      trailWidth: 2.5
+      trailLength: 20
+      trailChance: -1
+
+      healPercent: 2.8
+      collidesTeam: true
+      backColor: heal //98ffa9 in hex
+
+      despawnEffect: none
+      hitEffect: {
+        type: ExplosionEffect
+
+        lifetime: 20
+        waveStroke: 2
+        waveColor: heal //98ffa9 in hex
+        waveRad: 12
+        smokeSize: 0
+        smokeSizeBase: 0
+        sparkColor: heal //98ffa9 in hex
+        sparks: 9
+        sparksRad: 35
+        sparksLen: 4
+        sparkStroke: 1.5
+      }
+    }
+  }
+} 
+]
