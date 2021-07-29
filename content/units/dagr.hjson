@@ -1,0 +1,18 @@
+localizedName: dagr
+description: flar but dagger
+details: flar 2: electric boogaloo
+type: mech
+speed: 0.5
+hitsize: 8
+health: 150
+weapons: [
+{
+  name: "large-weapon"
+  reload: 13
+  x: 4
+  y: 2
+  top: false
+  ejectEffect: casing1
+  bullet: standardCopper
+}
+]
