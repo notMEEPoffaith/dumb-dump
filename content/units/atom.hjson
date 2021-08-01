@@ -17,8 +17,8 @@ weapons: [
   bullet: {
    type: BasicBulletType,
    damage: 1
-   width: 1
-   height: 1
+   width: 0.25
+   height: 0.25
    sprite: dumb-dump-bult
   } 
 }
