@@ -1,0 +1,23 @@
+localizedName: Atom
+description: The smallest unit in the universe.
+details: It's a 2x2(pixels) unit.
+type: mech
+speed: 0.1
+hitsize: 0.5
+health: 4
+weapons: [
+{
+  name: "atom-weapon"
+  reload: 13
+  x: 1
+  y: 1
+  top: false
+  ejectEffect: casing1
+  bullet: {
+   type: BasicBulletType,
+   damage: 1
+   width: 1
+   height: 1
+  } 
+}
+]
