@@ -13,7 +13,7 @@ weapons: [
   y: 0.25
   top: false
   ejectEffect: casing1
-  recoil: 0
+  recoil: 0.1
   bullet: {
    type: BasicBulletType,
    damage: 1
