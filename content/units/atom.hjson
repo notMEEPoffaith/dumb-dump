@@ -9,8 +9,8 @@ weapons: [
 {
   name: "atom-weapon"
   reload: 13
-  x: 1
-  y: 1
+  x: 0.25
+  y: 0.5
   top: false
   ejectEffect: casing1
   bullet: {
