@@ -18,6 +18,7 @@ weapons: [
    damage: 1
    width: 1
    height: 1
+   sprite: dumb-dump-bult
   } 
 }
 ]
