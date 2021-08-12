@@ -1,0 +1,29 @@
+type: GenericCrafter
+localizedName: "Coal Duplicator"
+description: "makes 1 coal become 2"
+size: 2
+health: 100
+craftTime: 1
+itemCapacity: 2
+ambientSound: none
+ambientSoundVolume: 0
+craftEffect: none
+hasPower: false
+hasItems: true
+consumes: {
+    items: {
+      items: [
+      coal/1
+      ]
+   }
+}
+outputItem: coal/2
+research: coal
+requirements: [
+  coal/25
+  phase-fabric/10
+  copper/50
+  lead/10
+  graphite/20
+]
+category: crafting
