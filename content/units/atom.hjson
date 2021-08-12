@@ -3,7 +3,7 @@ description: The smallest unit in the universe.
 details: It's a 2x2(pixels) unit.
 type: mech
 speed: 0.1
-hitsize: 0.5
+hitsize: 1
 health: 4
 weapons: [
 {
