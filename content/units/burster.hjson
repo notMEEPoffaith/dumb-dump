@@ -7,6 +7,7 @@ hitSize: 7
 armor: 50
 commandLimit: 8
 itemCapacity: 50
+rotateShooting: false
 type: mech
 BaseUnit: GroundUnit
 weapons: [
@@ -15,6 +16,7 @@ weapons: [
   mirror: false
   reload: 12
   shootsound: tshot
+  ignoreRotation: true
   x: 0
   y: 0
   shots: 100
@@ -23,6 +25,7 @@ weapons: [
   bullet: {
    type: NormalBulletType
    damage: 25
+   velocityInaccuracy: 0.5
    speed: 1.5
    width: 5
    height: 5
