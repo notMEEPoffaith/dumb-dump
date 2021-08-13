@@ -1,0 +1,31 @@
+localizedName: "Burster"
+description: so it bursts bullets out
+details: "hehe bullet boom go BRRRRRRR"
+health: 9001
+speed: 1
+hitSize: 7
+armor: 50
+commandLimit: 8
+itemCapacity: 50
+type: mech
+BaseUnit: GroundUnit
+weapons: [
+ {
+  name: burstergun
+  mirror: false
+  reload: 12
+  shootsound: tshot
+  x: 0
+  y: 0
+  shots: 100
+  inaccuracy: 180
+  spacing: 1
+  bullet: {
+   type: NormalBulletType
+   damage: 25
+   speed: 1.5
+   width: 5
+   height: 5
+  }
+ }
+]
