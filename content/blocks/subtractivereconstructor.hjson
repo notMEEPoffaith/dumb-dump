@@ -1,0 +1,38 @@
+type: Reconstructor
+name: "Subtractive Reconstructor"
+health: 360
+description: Downgrades units back to the first tier. For if you don't like the T2 units.
+size: 3
+itemCapacity: 80
+constructTime: 500
+requirements: [
+ copper/200
+ lead/120
+ silicon/90
+]
+upgrades: [
+ [pulsar, nova]
+ [mace, dagger]
+ [atrax, crawler]
+ [horizon, flare]
+ [poly, mono]
+ [minke, risso]
+ [oxynoe, retusa]
+]
+consumes: {
+ items: {
+  items: [
+   {
+     item: silicon
+     amount: -40
+   },
+   {
+     item: graphite
+     amount: -40
+   }
+  ]
+  power: 3
+ }
+}
+category: units
+research: additive-reconstructor
