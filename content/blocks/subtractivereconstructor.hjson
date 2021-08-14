@@ -2,6 +2,7 @@ type: Reconstructor
 name: "Subtractive Reconstructor"
 health: 360
 description: Downgrades units back to the first tier. For if you don't like the T2 units.
+details: It uses the slag to melt down the harder to deconstruct stuff.
 size: 3
 itemCapacity: 80
 constructTime: 500
@@ -24,9 +25,10 @@ consumes: {
   power: 3
  }
  liquid: {
-   liquid: supercoolant
-   amount: 3.3
+   liquid: slag
+   amount: 1
  }
 }
 category: units
 research: additive-reconstructor
+researched: melter
