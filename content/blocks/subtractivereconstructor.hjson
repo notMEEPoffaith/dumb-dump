@@ -21,6 +21,10 @@ upgrades: [
 ]
 consumes: {
  items: {
+  items: [
+    silicon/-40
+    graphite/-40
+  ]
   power: 3
  }
 }
