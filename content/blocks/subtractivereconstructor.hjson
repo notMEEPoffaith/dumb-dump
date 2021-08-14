@@ -21,11 +21,11 @@ upgrades: [
 ]
 consumes: {
  items: {
-  items: [
-    silicon/-40
-    graphite/-40
-  ]
   power: 3
+ }
+ liquid: {
+   liquid: supercoolant
+   amount: 3.3
  }
 }
 category: units
