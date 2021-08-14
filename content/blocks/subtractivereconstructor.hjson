@@ -1,5 +1,5 @@
 type: Reconstructor
-name: "Subtractive Reconstructor"
+localizedName: "Subtractive Reconstructor"
 health: 360
 description: Downgrades units back to the first tier. For if you don't like the T2 units.
 details: It uses the slag to melt down the harder to deconstruct stuff.
