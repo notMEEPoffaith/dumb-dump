@@ -1,0 +1,46 @@
+localizedName: "Gatrax"
+description: "Gamma but it has Atrax legs"
+flying: false
+rotateShooting: false
+mineSpeed: 8
+mineTier: 2
+buildSpeed: 1
+drag: 0.4
+speed: 0.54
+rotateSpeed: 3
+accel: 0.11
+itemCapacity: 70
+health: 220
+hitSize: 11
+commandLimit: 5
+legCount: 4
+legLength: 9
+legTrns: 0.6
+legMoveSpace: 1.4
+hovering: true
+allowLegStep: true
+visualElevation: 0.2
+weapons: [
+{
+  name: "small-mount-weapon"
+  top: false
+  reload:15
+  x:1
+  y:2
+  shots:2
+  spacing:2
+  inaccuracy:3
+  shotDelay: 3
+  ejectEffect: casing1
+  bullet: {
+   type: BasicBulletType,
+   width: 6.5
+   height: 11
+   lifetime: 70
+   shootEffect: shootSmall
+   smokeEffect: shootSmallSmoke
+   buildingDamageMultiplier: 0.01
+   homingPower: 0.04
+  }
+}
+]
