@@ -1,6 +1,6 @@
 localizedName: "Gatrax"
 description: "Gamma but it has Atrax legs"
-flying: false
+type: legs
 rotateShooting: false
 mineSpeed: 8
 mineTier: 2
