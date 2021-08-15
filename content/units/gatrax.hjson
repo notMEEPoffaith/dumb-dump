@@ -1,7 +1,7 @@
 localizedName: "Gatrax"
 description: "Gamma but it has Atrax legs"
 type: legs
-rotateShooting: false
+rotateShooting: true
 mineSpeed: 8
 mineTier: 2
 buildSpeed: 1
@@ -33,9 +33,10 @@ weapons: [
   shotDelay: 3
   ejectEffect: casing1
   bullet: {
-   type: BasicBulletType,
+   type: BasicBulletType
    width: 6.5
    height: 11
+   damage: 11
    lifetime: 70
    shootEffect: shootSmall
    smokeEffect: shootSmallSmoke
