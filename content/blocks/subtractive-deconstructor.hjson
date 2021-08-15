@@ -2,7 +2,7 @@ type: Reconstructor
 localizedName: "Subtractive Deconstructor"
 health: 360
 description: Downgrades units back to the first tier. For if you don't like the T2 units.
-details: It uses the slag to melt down the harder to deconstruct stuff.
+details: It uses the slag to melt down the harder to deconstruct stuff, and blast to explode the really hard to deconstruct shit.
 size: 3
 itemCapacity: 80
 constructTime: 500
@@ -21,8 +21,11 @@ upgrades: [
  [oxynoe, retusa]
 ]
 consumes: {
+ power: 3
  items: {
-  power: 3
+    items: [
+      blast-compound/5
+    ]
  }
  liquid: {
    liquid: slag
