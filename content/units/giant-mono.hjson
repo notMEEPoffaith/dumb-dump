@@ -1,0 +1,14 @@
+localizedName: "Giant Mono"
+description: "it's a 2x2 mono."
+defaultController: MinerAI
+flying: true
+drag: 0.06
+accel: 0.06
+speed: 1.5
+health: 400
+engineSize: 3.6
+engineOffset: 11.4
+range: 100
+isCounted: false
+mineTier: 2
+mineSpeed: 5
