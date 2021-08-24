@@ -1,0 +1,133 @@
+localizedName: "Bulletspammer"
+description: "hehe bullet spam stolen from luminance exotic mod go BRRRRRRRRRRRRRRRRRR"
+flying: true
+rotateShooting: false
+mineSpeed: 8
+mineTier: 2
+buildSpeed: 1
+drag: 0.05
+speed: 3.55
+rotateSpeed: 19
+accel: 0.11
+itemCapacity: 70
+health: 220
+engineOffset: 6
+hitSize: 11
+commandLimit: 5
+weapons:[
+  {
+    x: 0
+    y: 0
+    rotate: true
+    shots: 10
+    shotDelay: 4
+    reload: 120
+    inaccuracy: 15
+    velocityRnd: 0.5
+    shootSound: bang
+    bullet: { 
+      type: BasicBulletType
+      damage: 250
+      splashDamage: 700
+      splashDamageRadius: 28
+      speed: 7
+      lifetime: 80
+      weaveMag: 4
+      weaveScale: 8
+      width: 20
+      height: 20
+      frontColor: e65555
+      backColor: 00000000
+      lightColor: e65555
+      hitShake: 1
+      shootEffect: {
+        type: MultiEffect
+        layer: 91
+        effects: [
+          {
+            type: WaveEffect
+            lifetime: 40
+            sizeFrom: 12
+            sizeTo: 40
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: e65555
+            colorTo: e6555550
+          }
+          {
+            type: WaveEffect
+            lifetime: 40
+            sizeFrom: 10
+            sizeTo: 40
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: ffa666
+            colorTo: ffa66650
+          }
+          {
+            type: WaveEffect
+            lifetime: 40
+            sizeFrom: 8
+            sizeTo: 40
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: f0e773
+            colorTo: f0e77350
+          }
+          {
+            type: WaveEffect
+            lifetime: 40
+            sizeFrom: 6
+            sizeTo: 40
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: 83f793
+            colorTo: 83f79350
+          }
+          {
+            type: WaveEffect
+            lifetime: 40
+            sizeFrom: 4
+            sizeTo: 40
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: 7382f0
+            colorTo: 7382f050
+          }
+          {
+            type: WaveEffect
+            lifetime: 40
+            sizeFrom: 2
+            sizeTo: 40
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: a488eb
+            colorTo: a488eb50
+          }
+        ]
+      }
+      despawnEffect: none
+      hitEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 45
+        lifetime: 25
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: e65555
+        colorTo: e6555550
+      }
+      trailEffect: {
+        type: ParticleEffect
+        length: 0
+        lifetime: 30
+        particles: 1
+        sizeFrom: 10
+        sizeTo: 0
+        colorFrom: e65555
+        colorTo: e65555
+        region: particle
+      }
+    }
+  }
+]
