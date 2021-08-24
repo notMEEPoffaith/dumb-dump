@@ -1,5 +1,6 @@
 localizedName: "Giant Mono"
 description: "it's a 2x2 mono."
+controller: MinerAI
 flying: true
 drag: 0.06
 accel: 0.06
