@@ -22,6 +22,7 @@ abilities: [
     chance: 1
     minSpeed: 0
     maxSpeed: 0
+    innacuracy: 180
     length: 10
     width: 2.5
     shootSound: none
