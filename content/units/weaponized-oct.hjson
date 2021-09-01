@@ -1,0 +1,35 @@
+type: payload
+controller: DefenderAI
+armor: 16
+health: 24000
+speed: 0.8
+rotateSpeed: 1
+accel: 0.04
+drag: 0.018
+flying: true
+engineOffset: 46
+engineSize: 7.8
+rotateShooting: false
+hitSize: 66
+payloadCapacity: 28.09
+buildSpeed: 4
+drawShields: false
+commandLimit: 6
+lowAltitude: true
+buildBeamOffset: 43
+ammoCapacity: 1
+abilities: [
+{
+  type: ForceFieldAbility
+  radius: 140
+  regen: 4
+  max: 7000
+  cooldown 480 // 8 seconds
+}
+{
+  type: RepairFieldAbility
+  amount: 130
+  reload: 120 // 2 seconds
+  range: 140
+}
+]
