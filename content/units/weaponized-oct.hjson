@@ -24,7 +24,7 @@ abilities: [
   radius: 140
   regen: 4
   max: 7000
-  cooldown 480 // 8 seconds
+  cooldown: 480 // 8 seconds
 }
 {
   type: RepairFieldAbility
