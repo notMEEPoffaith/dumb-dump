@@ -1,3 +1,6 @@
+localizedName: Weaponized Oct
+description: it's an oct that has a mono cannon
+details: "1: hey what is that? 2: it looks like an oct. 1: WHY DOES IT HAVE A CANNON LOADED WITH MONOS?! 2: ??? oct: *shoots cannon* 1 and 2: AAAAAAAAAAA"
 type: payload
 controller: DefenderAI
 armor: 16
@@ -11,7 +14,7 @@ engineOffset: 46
 engineSize: 7.8
 rotateShooting: false
 hitSize: 66
-payloadCapacity: 28.09
+payloadCapacity: 1825.85
 buildSpeed: 4
 drawShields: false
 commandLimit: 6
