@@ -14,7 +14,7 @@ engineOffset: 46
 engineSize: 7.8
 rotateShooting: false
 hitSize: 66
-payloadCapacity: 1825.85
+payloadCapacity: 1798
 buildSpeed: 4
 drawShields: false
 commandLimit: 6
