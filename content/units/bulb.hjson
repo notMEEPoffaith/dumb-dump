@@ -4,6 +4,7 @@ description: The T1 of the Glow chain of units.
 health: 150
 speed: 3
 drag: 0.05
+layer: 105
 accel: 0.16
 flying: true
 range: 125
