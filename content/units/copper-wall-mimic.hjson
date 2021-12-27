@@ -10,7 +10,7 @@ hitSize: 8,
 type: mech,
 BaseUnit: GroundUnit,
 rotateSpeed: 5,
-rotateShooting: false,
+rotateShooting: true,
 weapons: [
  {
   name: invisible,
