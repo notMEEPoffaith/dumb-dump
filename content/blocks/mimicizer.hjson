@@ -1,0 +1,29 @@
+type: Reconstructor
+localizedName: "Mimicizer"
+health: 1440
+description: Turns walls into mimics.
+details: It makes unit parts with the silicon and lead, then inserts a basic AI to the walls to make them units.
+size: 3
+itemCapacity: 80
+constructTime: 500
+requirements: [
+ copper/120
+ lead/200
+ silicon/90
+]
+upgrades: [
+ [copper-wall, copper-wall-mimic]
+]
+consumes: {
+  power: 3
+    items: {
+      items: [
+        lead/10
+        silicon/20
+      ]
+    }
+  }
+}
+category: units
+research: additive-reconstructor
+researched: copper-wall
