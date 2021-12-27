@@ -1,5 +1,5 @@
 localizedName: "Copper Wall Mimic"
-description: "A unit that mimics a copper wall."
+description: "A copper wall turned into a unit by the Mimicizer"
 health: 320,
 speed: 0.1,
 armor: 0,
@@ -9,7 +9,7 @@ mechFrontSway: 0,
 hitSize: 8,
 type: mech,
 BaseUnit: GroundUnit,
-rotateSpeed: 0,
+rotateSpeed: 5,
 rotateShooting: false,
 weapons: [
  {
@@ -18,7 +18,7 @@ weapons: [
   reload: 30,
   shootsound: pew,
   rotate: true,
-  rotateSpeed: 10000,
+  rotateSpeed: 5,
   x:0,
   y:0,
   shots: 1,
