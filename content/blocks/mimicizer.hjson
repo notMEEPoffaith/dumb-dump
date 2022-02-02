@@ -20,7 +20,6 @@ consumes: {
     lead/10
     silicon/20
   ]
-  }
 }
 category: units
 research: additive-reconstructor
