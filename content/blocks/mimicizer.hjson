@@ -16,10 +16,12 @@ upgrades: [
 ]
 consumes: {
   power: 3
-  items: [
-    lead/10
-    silicon/20
-  ]
+    items: {
+      items: [
+        lead/10
+        silicon/20
+      ]
+    }
 }
 category: units
 research: additive-reconstructor
