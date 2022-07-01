@@ -6,6 +6,7 @@ speed: 3
 drag: 0.05
 layer: 105
 accel: 0.16
+outlineColor: #192e2a
 flying: true
 range: 125
 targetAir: true
